@@ -1,2 +1,98 @@
-<h1>Hello!</h1>
-sd
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name = 'description' content = 'نیما آرام - وبلاگ' />
+    <meta name=viewport content="width=device-width,initial-scale=1"/>
+    <link rel='alternate' href='https://nimaaram1.github.io/nimaaram1/' hreflang='fa' />
+    <meta name="author" content="نیما آرام">
+    <link href="https://fonts.googleapis.com/css?family=Balsamiq+Sans&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="theme-color" content="#1abc9c"/>
+    <title>نیما آرام - وبلاگ</title>
+    <style>
+        body{
+            font-family: 'Balsamiq Sans', cursive;
+
+        }
+        *,*::after,*::before{
+            margin: 0;
+            padding: 0;
+        }
+        main .about{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #4e555b;
+            flex-direction: column;
+            margin-top: 2em;
+        }
+        .about p{
+            margin-top: 0.5em;
+        }
+        hr{
+            border: 0.2px solid #4e555b;
+            margin-top: 2em;
+        }
+        .buton{
+            background: #1abc9c;
+            margin-top: 1.5em;
+            display: inline-flex;
+            text-align: center;
+            width: 250px;
+            height: 45px;
+            justify-content: center;
+            align-items: center;
+            padding: 1em;
+            margin-left: 0.8em;
+            color: white;
+            font-size: 20px;
+            cursor: pointer;
+            text-decoration: none;
+            transition: all 0.4s ease;
+        }
+        .buton:hover{
+            background: #2ecc71;
+        }
+        a{
+            text-decoration: none;
+        }
+        .plate{
+            display: flex;
+            justify-content: center;
+        }
+        .svg{
+            text-align: center;
+            animation: pandol 8s ease infinite;
+            margin-top: 1em;
+            width: 300px;
+            height: 350px;
+            margin:0px auto;
+        }
+        @keyframes pandol {
+            0%{
+                transform: rotate(0deg);
+            }
+            100%{
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+<body>
+<main>
+    <div class="svg">
+        <img src="blob-shape.svg" width="300"></img>
+    </div>
+<div class="about">
+<h1>Nima Aram</h1>
+<p>full stack designer</p>
+</div>
+   
+    <div class="plate">
+    <a href="https://github.com/NimaAram1" class="buton"><div>Github</div></a>
+    <a href="#" class="buton">My Talent</a>
+        </div>
+</main>
+</body>
+</html>
