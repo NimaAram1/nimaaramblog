@@ -1,2 +1,2 @@
 # weblog link
-[myweblog](https://nimaaram1.github.io/nimaaram1/)
+[myweblog](https://nimaaram1.github.io/nimaaramblog/)
